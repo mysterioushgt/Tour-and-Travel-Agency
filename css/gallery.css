@@ -1,0 +1,160 @@
+nav .weblogo{
+    width: 65px;
+}
+.navbar{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background:#1a16168a!important;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-brand span{
+    color: orangered;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media(max-width: 768px)
+{
+ .navbar{
+  background:#333!important;
+ }
+ .img12{
+    margin-top: 78px;
+ }
+}
+.a{
+  width: 350px;
+}
+.banner{
+    background-image: url(https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?3);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 255px;
+}
+.text1{
+    position: relative;
+    text-align: center;
+    color:brown;
+    font-size: 90px;
+    padding-top: 40vh;
+    font-family: 'prague';
+}
+.heading span{
+    font-size: 2.5rem;
+    background:rgba(255,165,0,.2);
+    color: orange;
+    border-radius:10px;
+    padding: 0rem 1rem;
+}
+.btn1{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    background-color: #ff4800;
+}
+.btn1:hover{
+    background-color: yellow;
+
+}
+
+.b{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+.b .box1{
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0.0,0,0.1);
+    border-radius: .5rem;
+    flex: 0 0 24rem;
+    height: 25rem;
+    position: relative;
+}
+.b .box1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.b .box1 .content{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.7);
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.b .box1 .content h3{
+    font-size: 32px;
+    color: orangered;
+}
+.b .box1 .content p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: .5rem 0;
+}
+footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #000000;
+    background-size: cover;
+}
+.navbar-logo{
+    width: 80px;
+    margin-bottom: 10px;
+}
+.box{
+    display: flex;
+    padding-left: 121px;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.p{
+    letter-spacing: 15px;
+
+}
+
+.tips{
+    height: 90px;
+    width: 90px;
+    border-radius: 6px;
+    margin: 4px;
+
+}
+.m{
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 27%;
+    left: 153px;
+}
+h3{
+    font-size: 70px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+
+}
